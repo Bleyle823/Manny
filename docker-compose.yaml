@@ -9,7 +9,7 @@ services:
         volumes:
             - ./data:/app/data
         environment:
-            - OPENROUTER_API_KEY=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
+            - OPENROUTER_API_KEY=
             - ELEVENLABS_XI_API_KEY=
             - ELEVENLABS_MODEL_ID=eleven_multilingual_v2
             - ELEVENLABS_VOICE_ID=21m00Tcm4TlvDq8ikWAM
